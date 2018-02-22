@@ -175,6 +175,11 @@ a {
     text-decoration: none;
 }
 
+.container{
+    width: 67%;
+    margin: 0 auto;
+}
+
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -207,27 +212,29 @@ nav ul {
 
 #active {
     color: #fff;
-    background-color: #b300b3;
+    background-color: #0578D1;
 }
 
 #active:hover {
-    background-color: #e1153b;
+    background-color: #76B5E5;
     transition: 0.8s;
 }
 
 .headnav a:hover {
-    background-color: #e1153b;
+    background-color: #76B5E5;
     transition: 0.8s;
 }
 
 
 /* ==========================================================================
-   Banner
+   Banner 
    ========================================================================== */
 
 .preview_cars img {
-    max-height: 250px;
-    max-width: 250px; 
+    justify-self: center;
+    height: 175px;
+    width: 250px; 
+    margin-bottom: 10px;
 }
 
 .preview_cars {
@@ -236,6 +243,10 @@ nav ul {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+/* ==========================================================================
+   slideshow
+   ========================================================================== */
 
 #slideshow{
     width: 100%;
