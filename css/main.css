@@ -203,8 +203,9 @@ nav ul {
    ========================================================================== */
 
 .preview_cars img {
-    max-height: 250px;
-    max-width: 250px; 
+    height: 175px;
+    width: 250px; 
+    margin-bottom: 10px;
 }
 
 .preview_cars {
