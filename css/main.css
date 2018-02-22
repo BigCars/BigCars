@@ -97,6 +97,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container{
+    width: 67%;
+    margin: 0 auto;
+}
+
 .preview_cars img {
     max-height: 250px;
     max-width: 250px; 
@@ -107,6 +112,47 @@ textarea {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+#slideshow{
+    width: 100%;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  padding: 5%;
+  text-align: center;
+}
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 15s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+@-webkit-keyframes slide {
+  10% {margin-left: 0%;}
+  20% {margin-left: 20%;}
+  30% {margin-left: 40%;}
+  40% {margin-left: 60%;}
+  50% {margin-left: 70%;}
+  60% {margin-left: -2184px;}
+  70% {margin-left: -2184px;}
+  80% {margin-left: ;}
+  90% {margin-left:;}
+}
+
 
 
 
