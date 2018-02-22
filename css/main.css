@@ -97,8 +97,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.preview_cars img {
+    max-height: 250px;
+    max-width: 250px; 
+}
 
-
+.preview_cars {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 
 
