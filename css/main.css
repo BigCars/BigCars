@@ -184,16 +184,16 @@ nav ul {
 
 #active {
     color: #fff;
-    background-color: #b300b3;
+    background-color: #0578D1;
 }
 
 #active:hover {
-    background-color: #e1153b;
+    background-color: #76B5E5;
     transition: 0.8s;
 }
 
 .headnav a:hover {
-    background-color: #e1153b;
+    background-color: #76B5E5;
     transition: 0.8s;
 }
 
@@ -203,6 +203,7 @@ nav ul {
    ========================================================================== */
 
 .preview_cars img {
+    justify-self: center;
     height: 175px;
     width: 250px; 
     margin-bottom: 10px;
