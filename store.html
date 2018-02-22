@@ -9,7 +9,6 @@
 
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
-        <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -18,15 +17,17 @@
         
         <section>
             <div id="header">
-                <div class="container">
+                <div class="container row-spaced logo">
                     <img src="img/logo.png" alt="Logo">
-                    <nav>
-                        <a href="index.html">Home</a>
-                        <a href="index.html#slideshow">Spotlight</a>
-                        <a href="store.html">Products</a>
-                        <a href="#contact">Contact</a>
-                    </nav>
                 </div>
+                <nav class="headnav">
+                    <ul class="navbar row-spaced">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#slideshow">Spotlight</a></li>
+                        <li><a id="active" href="store.html">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
         </section>
 
