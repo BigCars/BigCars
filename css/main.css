@@ -97,26 +97,135 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+/* ==========================================================================
+   Font Face
+   ========================================================================== */
+
+@font-face {
+    font-family: 'Flamante Round Book';
+    src: url('../fonts/FlamanteRound-Book.woff2') format('woff2'),
+        url('../fonts/FlamanteRound-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Flamante Round';
+    src: url('../fonts/FlamanteRoundMedium.woff2') format('woff2'),
+        url('../fonts/FlamanteRoundMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Flamante Round Bold';
+    src: url('../fonts/FlamanteRoundBold.woff2') format('woff2'),
+        url('../fonts/FlamanteRoundBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* ==========================================================================
+   Main site info
+   ========================================================================== */
+
+html, body {
+  font-size: 16px;
+  font-family: "Flamante Round", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Navbar Styling
+   ========================================================================== */
+
+.row-spaced {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    width: 500px;
+}
+
+.headnav a {
+    color: #fff;
+    padding: 9px 12px;
+    background: #111;
+    border-radius: 5px;
+}
+
+#active {
+    color: #fff;
+    background-color: #b300b3;
+}
+
+#active:hover {
+    background-color: #e1153b;
+    transition: 0.8s;
+}
+
+.headnav a:hover {
+    background-color: #e1153b;
+    transition: 0.8s;
+}
+
+
+/* ==========================================================================
+   Banner
+   ========================================================================== */
+
 .preview_cars img {
     max-height: 250px;
     max-width: 250px; 
 }
 
 .preview_cars {
+    margin-top: 100px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 
+/* ==========================================================================
+   Main info
+   ========================================================================== */
 
 
 
+/* ==========================================================================
+   Side info
+   ========================================================================== */
 
 
 
-
-
+/* ==========================================================================
+   Footer
+   ========================================================================== */
 
 
 
