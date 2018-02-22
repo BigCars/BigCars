@@ -1,52 +1,61 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>BigCars | Home</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>BigCars | Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" href="icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container row-spaced">
+            <div class="logo">
+                <h1><img src="img/logo.png" alt="Logo"></h1>
+            </div>
+            <nav class="headnav">
+                <ul class="navbar row-spaced">
+                    <li><a id="active" href="">Home</a></li>
+                    <li><a href="#slideshow">Spotlight</a></li>
+                    <li><a href="#info">Information</a></li>
+                    <li><a href="store.html">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
-        <section>
-            <div id="header">
-                <div class="container row-spaced">
-                <div class="logo">
-                    <img src="img/logo.png" alt="Logo">
+    <div id="slideshow">
+        <div class="container">
+            <h2>Some of our work!</h2>
+            <div class="slide-wrapper">
+                <div class="slider">
+                    <img src="img/BigCar1.jpg" alt="BigCar">
                 </div>
-                <nav class="headnav">
-                    <ul class="navbar row-spaced">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#slideshow">Spotlight</a></li>
-                        <li><a id="active" href="store.html">Products</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
+                <div class="slider">
+                    <img src="img/BigCar2.jpg" alt="BigCar">
+                </div>
+                <div class="slider">
+                    <img src="img/BigCar3.jpg" alt="BigCar">
                 </div>
             </div>
-        </section>
-        
-        <section>
-        <div id="slideshow">
-            <div class="container">
-                <div class="slide-wrapper">
-                    <div class="slider">
-                        <img src="img/BigCar1.jpg" alt="BigCar">
-                    </div>
-                    <div class="slider">
-                        <img src="img/BigCar2.jpg" alt="BigCar">
-                    </div>
-                    <div class="slider">
-                        <img src="img/BigCar3.jpg" alt="BigCar">
-                    </div>
-                </div>
+        </div>
+    </div>
+
+    <div id="info">
+        <div class="container">
+            <h2>Information</h2>
+            <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos hic officia accusamus quod, quis sint quas ipsum, totam, perferendis laboriosam culpa, laudantium modi enim consequatur dolorum vitae! Suscipit, quidem, asperiores?</span>
+                <span>Porro quas sit exercitationem saepe rerum eius fugiat vitae. Veniam quas aperiam velit. Sed fugit asperiores quo iste odit, nam beatae dolorem eos quaerat, magni enim possimus corporis dignissimos assumenda.</span>
+                <span>Nostrum, iusto numquam molestiae. Nobis adipisci dignissimos dicta, eos laboriosam rerum temporibus nemo neque sunt repellendus consequuntur labore doloremque, voluptas quaerat ab, odio officia eius magnam facere molestiae inventore id.</span>
+                <span>Expedita inventore adipisci iste asperiores mollitia dolores odio aperiam voluptatem nisi fuga voluptatibus ipsam, non, hic repudiandae dolorem dolore harum eos saepe, quaerat. Voluptatum nobis odit neque illo voluptatibus sed.</span>
+                <span>Eius temporibus fuga facilis, itaque quam est tempore animi nulla cupiditate ea! Magnam voluptatum perspiciatis laboriosam deserunt maiores cumque voluptate saepe natus ipsum. Dolorum labore, quam rem eaque nulla vel.</span></p>
             </div>
         </div>
 
@@ -65,10 +74,19 @@
                     <div>
                         <textarea name="message" id="message" placeholder="Message"></textarea>
                     </div>
+                    <div>
+                        <input id="submit" type="submit" name="submit" value="Send">
+                    </div>
                 </form>
+                <ul>
+                    <li>Straatnaam (Nummer)</li>
+                    <li>1234AB Amsterdam</li>
+                    <li>T 1234567890</li>
+                    <li>F 1234567890</li>
+                    <li>E yourname@yourcompany.com</li>
+                </ul>
             </div>
-        </section>
-        
+        </div>
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
@@ -81,4 +99,4 @@
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
     </body>
-</html>
+    </html>
